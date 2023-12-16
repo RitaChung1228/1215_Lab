@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1215Lab.css">
+</head>
+<body>
+    <div class="button-container">
+        <button id="button1" class="button" onClick="alert(number1)">Button 1</button>       
+        <button id="button2" class="button" onClick="alert(number2)">Button 2</button>
+       
+        <script>
+            
+            var number1 = window.prompt("Enter the first number");
+            var number2 = window.prompt("Enter the second number");
+
+            if(number1 > number2){
+                document.body.style.backgroundColor = 'lightblue';
+                document.writeln(number1 + '>' + number2);  
+            }else if(number2 > number1){
+                document.body.style.backgroundColor = 'orange';
+                document.writeln(number2 + '>' + number1);
+            }else{
+                document.body.style.backgroundColor = 'lightyellow';
+                document.writeln(number1 + '==' + number2);
+            }
+
+            
+        </script>
+    </div>
+</body>
+</html>

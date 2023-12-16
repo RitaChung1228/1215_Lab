@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#button1 { background-color: #3498db; }
+#button2 { background-color: #e74c3c; }
+
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.document.writeln {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
